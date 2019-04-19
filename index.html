@@ -7,20 +7,17 @@
     <title>4-Forms</title>
 </head>
 <body>
-        <form action="/">
-                <label for="1">Phone: </label><input type="number" required id="1" name="phone"><br>
-                <label for="2">E-mail:<input type="email" required id="2" name="email"> </label><br>
-                <label for="3">Password:<input type="password" required id="3" name="password"> </label><br>
-                <label for="4">Confirm Password:<input type="password" required id="4" name="pasword1"> </label><br>
-                <label for="5">Habitual Residence:  <select name="some" id="5" required><br>
-                    <option value="Zhejiang">Zhejiang</option>
-                    <option value="Hangzhou">Hangzhou</option>
-                    <option value="West lake">West lake</option>
-                </select>
-                </label><br>
-                <label for="6">Website: <input type="url" required placeholder="website" id="6" name="website"></label> <br>
-                </label><input type="checkbox" value="agreement" required name="checkbox"> <a href="https://www.google.com/">I have read agreement </a><br>
-                <button>Register</button>
-            </form>
+        <form action="">
+                <label for="1">Name <input type="text" name="name" id="1" placeholder="Artisanal Kale" required> </label> <br>
+                <label for="2">Email <input type="email" name="email" id="2" placeholder="bootstrap@example.com" required> </label> <br>
+                <label for="3">Password <input type="password" name="password" id="3" placeholder="*****" required></label> <br>
+                <label for="9">number <input type="number" name="number" id="9" placeholder="42" required></label> <br>
+                <label for="4">Date <input type="date" id="4" name="date" required></label> <br>
+                <label for="5">Time <input type="time" name="time" required id="5"></label><br>
+                <label for="6">Color <input type="color" id="6" name="color" value="#e66465" required ></label>  <br>
+                <label for="7">Range </label>  <input type="range" id="7" name="range" min="0" max="11" required> <br>
+                <label for="8">Description</label><textarea name="Description" id="8" cols="5" rows="5" required></textarea><br>
+                <input type="submit" name="submit"> <input type="reset" name="reset">
+        </form>
 </body>
 </html>
