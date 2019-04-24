@@ -1,0 +1,6 @@
+body {
+    background-color: gray;
+}
+.hover:hover{
+    background-color: springgreen;
+}
