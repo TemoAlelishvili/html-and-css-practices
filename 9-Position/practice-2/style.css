@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    background-image:url("./Capture1.JPG");
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 600px;
+     
+}
+.blar {
+    opacity: 0.8;
+    background-color: black;
+
+    width: 1350px;
+    height: 630px;
+    position: relative;
+}
+.modal {
+    border-radius: 5px;
+    opacity:1;
+    background-color: white;
+    top: 35%;
+    right: 55%;
+    z-index: 3;
+    position: absolute;
+    transform: translate(50% , -50%);
+    font-size: 45px;
+    width: 500px;
+    height: 200px;
+}
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+.title {
+    font-size: 23px;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.hr1 {
+    position: absolute;
+    top:30px;
+    width: 100%;
+    
+}
+p {
+    font-size: 20px;
+    color: grey;
+    position: absolute;
+    top:65px;
+    left: 30px;
+}
+.hr2 {
+    position: absolute;
+    top:120px;
+    width: 100%;
+}
+.btn2{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:	#1E90FF;
+    position: absolute;
+    bottom: 13px;
+    right: 15px;
+    color: white;
+}
+.btn1{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 70px;
+}
+
+
