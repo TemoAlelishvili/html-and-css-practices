@@ -1,0 +1,75 @@
+#main{
+    position: absolute;
+    
+}
+.all{
+    padding: 25px;
+    border: 2px solid lightgray;
+    border-bottom: none;
+}
+.second{
+    border-bottom: 2px solid lightgray;
+}
+.all span{
+    margin-left: 10px
+}
+.count{
+    margin-top: 15px;
+}
+.filesDiv{
+    padding: 10px;
+}
+.files{
+    font-size: 25px;
+}
+.imges {
+position: relative;
+
+}
+.imges img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.text{
+    position: absolute;
+}
+.text1{
+    top: 15px;
+    left: 85px;
+    font-weight: bold;
+}
+.text2{
+    top: 45px;
+    left: 85px;
+    color: rgb(39, 37, 35)
+}
+.icons{
+    margin-top: 30px;
+}
+.first3 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.eye{
+    margin-left: 150px!important;
+    position: relative;
+}
+.nearImg{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#divs{
+    display: inline;
+    float: left;
+    margin-left: 30px; 
+}
+.near{
+position: absolute;
+}
+
+.ahref{
+    color: black;
+    text-decoration: none;
+}
