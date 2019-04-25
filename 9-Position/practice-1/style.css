@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-image:url("./website.jpg");
+    background-repeat: no-repeat;
+    width: 1300px;
+    
+     
+}
+
+.blar {
+    opacity: 0.8;
+    background-color: black;
+
+    width: 1020px;
+    height: 510px;
+    position: relative;
+}
+.header {
+    top: 50%;
+    right: 50%;
+    z-index: 3;
+    position: absolute;
+    color: #ffff;
+    transform: translate(50% , -115%);
+    font-size: 45px;
+}
