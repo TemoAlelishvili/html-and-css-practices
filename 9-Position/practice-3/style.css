@@ -6,6 +6,22 @@
     height: 900px;
     z-index: 1;
 }
+.main2{
+    background-image:url("./product-image-479341902_87ff2d7f-bbaf-4bf2-bc01-a5a8ff3abfb9_800x.jpg");
+    background-repeat: no-repeat;
+
+    width: 800px;
+    height: 900px;
+    z-index: 1;
+}
+.main3{
+    background-image:url("./image.jpg");
+    background-repeat: no-repeat;
+
+    width: 800px;
+    height: 900px;
+    z-index: 1;
+}
 #dark{
     opacity: 0.8;
     background-color: black;
@@ -25,16 +41,25 @@
     text-align: center;
 }
 #red{
-   padding: 15px;
+    position: absolute;
+    top: -180px;
+    left:15px;
+   padding: 10px 0 10px 30px;
     color: red;
     background-color: white;
+    text-align: right;
+}
+.spn {
+    position: absolute;
+    top: -170px;
+    left:85px;
 }
 
 #lorem{
     z-index: 3;
     position: absolute;
-    top:380px;
-    left: 80px;
+    top:205px;
+    left: 95px;
     color: white;
     width: 240px;
     font-size: 18px;
@@ -42,35 +67,35 @@
 #left{
     z-index: 3;
     position: absolute;
-    top: 500px;
-    left: 50px;
+    top: 355px;
+    left: 45px;
     width: 50px;
-    background-color: wheat;
+    background-color: white;
     text-align: center;
     color: black;
     font-size: 45px;
     text-decoration: none;
 }
 #right{
+    
     z-index: 3;
     position: absolute;
-    top: 500px;
+    top: 355px;
     right: 50px;
-    width: 50px;
-    background-color: wheat;
-
+    width: 45px;
+    background-color: white;
+    
     color: black;
     font-size: 45px;
     text-decoration: none;
     text-align: center;
 }
 #sport{
-
+ 
     position: absolute;
     bottom: 50px;
     width:110px;
     height: 55px;
-
     left: 43%;
     color: white;
     background-color: orangered;
