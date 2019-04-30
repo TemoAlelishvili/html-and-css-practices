@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+}
+.first {
+     float: left;
+     width: 250px;
+     height: 200px;
+     border-right: 1px solid black;
+     border-bottom: 1px solid black;
+    background-color: red;
+
+ }
+.second {
+    float: right;
+    width: 250px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+}
+.third{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.for{
+    float: right;
+    width: 250px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+}
+.five{
+    float: left;
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+    border-right: 1px solid black;
+
+}
+
+.infive{
+    float: left;
+    width: 125px;
+    height: 200px;
+    border-right: 1px solid black;
+    background-color: yellow;
+
+
+}
+.six {
+    float: right;
+    width: 250px;
+    height: 200px;
+    background-color: antiquewhite;
+}
+.insix_1{
+    float: left;
+    width: 125px;
+    height: 200px;
+    border-right: 1px solid black;
+}
+.insix_1_1{
+    float: left;
+    width: 125px;
+    height: 100px;
+    background-color: darkviolet;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*.seven{*/
+/*    float: left;*/
+/*    width: 300px;*/
+/*    height: 250px;*/
+/*    border: 1px solid black;*/
+/*    background-color: blue;*/
+/*}*/
+/*.eight{*/
+/*    float: left;*/
+/*    width: 300px;*/
+/*    height: 250px;*/
+/*    border: 1px solid black;*/
+/*    background-color: white;*/
+/*}*/
+/*.nine{*/
+/*    float: left;*/
+/*    width: 294px;*/
+/*    height: 250px;*/
+/*    border: 1px solid black;*/
+/*    background-color: white;*/
+/*}*/
+/*.ten{*/
+/*    float: left;*/
+/*    width: 294px;*/
+/*    height: 120px;*/
+/*    background-color: white;*/
+/*    border-bottom: 1px solid black;*/
+/*}*/
+/*.eleven{*/
+/*    float: left;*/
+/*    width: 294px;*/
+/*    height: 130px;*/
+/*    background-color: yellow;*/
+/*}*/
+
+
