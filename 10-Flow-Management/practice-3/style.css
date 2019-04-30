@@ -1,0 +1,355 @@
+#main{
+    height: 1000px;
+    width: 1000px;
+}
+.first{
+    width: 50px;
+    height: 295px;
+    float: left;
+    position: relative;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.first_in1{
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    height: 90px;
+    background-color: blanchedalmond;
+    border-top: 5px solid black;
+}
+.second{
+    float: left;
+    width: 290px;
+    height: 295px;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.inTop{
+    /* position: absolute;
+    top: 0px; */
+    float: left;
+    height:50px;
+    width: 190px;
+    background-color: blanchedalmond;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+.inTop2{
+    float: left;
+    height:50px;
+    width: 85px;
+    background-color: blanchedalmond;
+    border-right: 5px solid black;
+}
+.inMiddle{
+    float: left;
+    height: 146.5px;
+    width: 190px;
+    background-color: blanchedalmond;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+.inMiddle2{
+    float: left;
+    height: 146.5px;
+    width: 85px;
+    background-color: black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+.inBottom{
+    float: left;
+    height: 88.5px;
+    width: 190px;
+    background-color: white;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+.inBottom2{
+    float: left;
+    height: 88.5px;
+    width: 85px;
+    background-color: black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+.third{
+        float: left;
+        width: 290px;
+        height: 295px;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+        border-bottom: 5px solid black;
+}
+.thirdWhite{
+    float: left;
+    width: 290px;
+    height: 50px;
+    border-bottom: 5px solid black;
+    background-color: white
+}
+.thirdBlue{
+    float: left;
+    width: 290px;
+    height: 240px;
+    background-color: lightblue;
+}
+.forth{
+        float: left;
+        width: 290px;
+        height: 295px;
+        border-right: 5px solid black;
+        border-left: 5px solid black;
+        border-bottom: 5px solid black;
+
+}
+.forthIn1{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.ffirst{
+    float: left;
+    width: 120px;
+    height: 140px;
+    background-color: blanchedalmond;
+    border-right: 5px solid black;
+}
+.fsec{
+    float: left;
+    width: 207px;
+    height: 89px;
+    background-color: blanchedalmond;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.fthird{
+    float: left;
+    width: 120px;
+    height: 55px;
+    background-color: orange;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+.b{
+    border: 5px solid black;
+}
+.forthIn1_1{
+    float: left;
+    width: 207px;
+    height: 200px;
+    border-right: 5px solid black;
+}
+.fthird2{
+    float: left;
+    margin-left: 12px;
+    width: 78px;
+    height: 295px;
+    background-color: red;
+}
+.fifth{
+    float: left;
+    width: 40px;
+    height: 295px;
+    background-color: blanchedalmond;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.six{
+    float: left;
+    width: 350px;
+    height: 290px;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: blanchedalmond;
+}
+.insix1{
+    float: left;
+    width: 350px;
+    height: 90px;
+    background-color: blanchedalmond;
+    border-bottom: 5px solid black; 
+    border-top: 5px solid black; 
+}
+.insix2{
+    float: left;
+    width: 350px;
+    height: 90px;
+    background-color: lightblue;
+    border-bottom: 5px solid black; 
+}
+.insix3 {
+    float: left;
+    width: 350px;
+    height: 95px;
+    background-color: black;
+    border-bottom: 5px solid black; 
+}
+.seven {
+    float: left;
+    width: 290px;
+    height: 285px;
+    background-color: blanchedalmond;
+    border: 5px solid black;
+
+}
+.inseven1{
+    float: left;
+    width: 140px;
+    height: 285px;
+    border-right: 5px solid black;
+}
+.inseven2{
+    float: right;
+    width: 140px;
+    height: 50px;
+    border-bottom: 5px solid black; 
+    border-left: 5px solid black;
+}
+.inseven3{
+    float: right;
+    width: 140px;
+    height: 230px;
+    border-left: 5px solid black;
+    background-color: darkgoldenrod;
+    border-bottom: 5px solid black;
+}
+.eight{
+    float: left;
+    width: 290px;
+    height: 150px;
+    border: 5px solid black;
+}
+.ineight1 {
+    float: left;
+    width: 290px;
+    height: 75px;
+    background-color: black;
+}
+.ineight2 {
+    float: left;
+    width: 203px;
+    height: 75px;
+    background-color: blanchedalmond;
+    border-right: 5px solid black ;
+}
+.ineight3 {
+    float: left;
+    width: 82px;
+    height: 75px;
+    background-color: blanchedalmond;
+
+}
+.nine{
+    float: left;
+    width: 40px;
+    height: 75px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.ten{
+    float: left;
+    width: 40px;
+    height: 75px;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: blanchedalmond;
+}
+.eleven {
+    float: left;
+    width: 125px;
+    height: 135px;
+    border-left: 5px solid black;
+    /* border-bottom: 5px solid black; */
+    background-color: red;
+    border-right: 5px solid black ;
+}
+.twelve {
+    float: left;
+    width: 345px;
+    height: 295px;
+}
+.thirteen {
+    float: left;
+    width: 210px;
+    height: 130px;
+    background-color: blanchedalmond;
+    border-bottom: 5px solid black;
+}
+.forteen {
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    float: left;
+    width: 350px;
+    height: 290px;
+    background-color: blanchedalmond;
+}
+.inforteen1 {
+    border-right: 5px solid black;
+    float: left;
+    width: 52px;
+    height: 290px;
+    background-color: white;
+}
+.inforteen2{
+    border-right: 5px solid black;
+    border-left: 10px solid black;
+    border-bottom: 5px solid black;
+    float: left;
+    width: 195px;
+    height: 50px;
+    background-color: red;
+}
+.inforteen3{
+    border-right: 5px solid black;
+    border-left: 10px solid black;
+    float: left;
+    width: 195px;
+    height: 235px;
+    background-color: darkgoldenrod;
+}
+.fifteen{
+    float: left;
+    border:5px solid black ;
+    background-color: blue;
+    width: 290px;
+    height: 290px;
+}
+.sixteen{
+    float: left;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: blue;
+    width: 340px;
+    height: 295px;
+}
+.insixteen1{
+    float: left;
+    width: 125px;
+    height: 135px;
+    background-color: red;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.insixteen2 {
+    float: left;
+    width: 210px;
+    height: 135px;
+    background-color: lightblue;
+    border-bottom: 5px solid black;
+}
+.insixteen3{
+    float: left;
+    width: 340px;
+    height: 155px;
+    background-color: blanchedalmond;
+    border-bottom: 5px solid black;
+}
+
