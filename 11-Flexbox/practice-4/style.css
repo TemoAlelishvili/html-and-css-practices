@@ -1,0 +1,373 @@
+#main{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+
+}
+.flex{
+    display: flex;
+}
+.flex3{
+    display: flex;
+    flex: 3;
+}
+.fist{
+    height: 330px;
+}
+.fist_1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.fist_1_1{
+    flex: 2;
+    background-color: white;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.fist_1_2{
+    flex: 1;
+    background-color: white;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    background-color: lightgoldenrodyellow;
+}
+.fist_2_1{
+    flex: 2;
+    background-color: lightgoldenrodyellow;
+    flex-direction: column;
+    display: flex;
+
+}
+.fist_2_2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+}
+.fist_3{
+    background-color: white;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    flex-direction: column;
+}
+.fist_5{
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.fist_3_1{
+    background-color: white;
+    flex: 1;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.fist_3_2{
+    background-color: lightskyblue;
+    flex: 4;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.fist_2_1_1{
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.fist_2_1_2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.fist_2_1_3{
+    flex: 2;
+    background-color: white;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.fist_2_2_1{
+flex: 1;
+    background-color: lightgoldenrodyellow;
+}
+.fist_2_2_2{
+    flex: 4;
+    background-color: black;
+}
+.fist_4{
+    display: flex;
+}
+.fist_4_1{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.fist_4_2{
+    flex: 1;
+    background-color: red;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.fist_4_1_1{
+    display: flex;
+    flex: 2;
+}
+.fist_4_1_1{
+    flex: 2;
+}
+.fist_4_1_2{
+    flex: 2;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+}
+.fist_4_1_1_1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.fist_4_1_1_2{
+    flex: 1;
+    background-color: white;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.fist_4_1_1_1_1{
+
+    display: flex;
+    flex: 2;
+    background-color: lightgoldenrodyellow;
+}
+.fist_4_1_1_1_1{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+.fist_4_1_1_1_1_1{
+    flex: 2;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+}
+
+.fist_4_1_1_1_1_2{
+
+    flex:1;
+    background-color: orange;
+    border-top: 5px solid black;
+}
+.second{
+    height: 330px;
+    display: flex;
+}
+.second_1{
+
+    flex:2;
+    flex-direction: column;
+
+
+}
+ .second_2{
+
+     flex:1;
+     display: flex;
+ }
+ .second_3{
+
+     flex:2;
+     display: flex;
+     flex-direction: column;
+ }
+ .second_1_1{
+     flex: 1;
+     background-color:lightgoldenrodyellow ;
+     border-top: 5px solid black;
+     border-bottom: 5px solid black;
+     border-right: 5px solid black;
+ }
+ .second_1_2{
+     flex: 1;
+     background-color:lightskyblue ;
+     border-bottom: 5px solid black;
+     border-right: 5px solid black;
+ }
+.second_1_3{
+    flex: 1;
+    background-color:black ;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.second_2_1{
+    flex: 1;
+    background-color:lightgoldenrodyellow ;
+    border-bottom: 5px solid black;
+}
+.second_2_2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.second_2_2_1{
+    flex: 1;
+    background-color:lightgoldenrodyellow ;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.second_2_2_2{
+    flex: 5;
+    background-color:orange ;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}
+.second_3_1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.second_3_2{
+    display: flex;
+    flex: 2;
+}
+.second_3_1_1{
+    display: flex;
+    flex: 1;
+}
+.second_3_1_2{
+    display: flex;
+    flex: 1;
+}
+.second_3_1_1_1{
+    flex: 3.2;
+    background-color: black;
+}
+.second_3_1_1_2 {
+    flex: 1;
+    background-color: white;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.second_3_1_2_1{
+ flex: 2;
+    background-color: lightgoldenrodyellow;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.second_3_1_2_2{
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+.second_3_1_2_3{
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+
+
+}
+.second_3_2_1{
+    flex: 1;
+    background-color: red;
+    border-left: 5px solid black;
+}
+.second_3_2_2{
+    flex: 3;
+    background-color: orange;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+.third {
+    display: flex;
+    height: 330px;
+}
+.third_1{
+    display: flex;
+    flex: 2;
+    background-color: white;
+}
+.third_1_1 {
+    flex: 0.6;
+}
+.third_1_2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.third_1_3 {
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+
+}
+.third_1_2_1{
+    border-left: 5px solid black;
+    flex: 1;
+    background-color: red;
+}
+.third_1_2_2{
+    flex: 4;
+    background-color: orange;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+}
+
+.third_2 {
+    display: flex;
+    flex: 1;
+    background-color: white;
+}
+
+.third_3 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+
+.third_3_1 {
+    flex: 1;
+    display: flex;
+
+
+}
+.third_3_2 {
+    flex: 1;
+    background-color:lightgoldenrodyellow ;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+
+}
+.third_3_1_1 {
+    border-left:5px solid black ;
+    flex: 1;
+    background-color: red;
+}
+.third_3_1_2 {
+    border-left:5px solid black;
+;
+    flex: 3;
+    background-color:lightskyblue;
+}
+
+
+
+
+
+
